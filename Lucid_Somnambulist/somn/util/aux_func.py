@@ -1,3 +1,5 @@
+import sys
+sys.path.append("./molli_firstgen")
 import molli as ml
 import warnings
 
