@@ -1,3 +1,6 @@
+import sys
+sys.path.append("./Lucid_Somnambulist")
+
 from somn.learn.learning import hypermodel_search
 from somn.util.project import Project
 from sys import argv

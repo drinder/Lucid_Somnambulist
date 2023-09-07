@@ -1,3 +1,6 @@
+import sys
+sys.path.append("./molli_firstgen")
+
 import molli as ml
 from molli.dtypes.molecule import Atom
 import pandas as pd

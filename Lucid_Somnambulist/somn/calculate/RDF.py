@@ -1,3 +1,6 @@
+import sys
+sys.path.append("./molli_firstgen")
+
 from rdkit import Chem
 from rdkit.Chem import rdqueries
 import molli as ml

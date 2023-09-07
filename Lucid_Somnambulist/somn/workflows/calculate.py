@@ -1,6 +1,11 @@
 # import somn
 # from copy import deepcopy
 import pickle
+
+import sys
+sys.path.append("./molli_firstgen")
+sys.path.append("./Lucid_Somnambulist")
+
 from somn.calculate.RDF import (
     retrieve_amine_rdf_descriptors,
     retrieve_bromide_rdf_descriptors,

@@ -1,7 +1,10 @@
 # This module is for the calculation of chemical descriptors, model performance metrics, and other
 # routine calculations hard-coded into the somn package.
 
-from .RDF import (
+import sys
+sys.path.append("./Lucid_Somnambulist/somn/calculate")
+
+from RDF import (
     retrieve_bromide_rdf_descriptors,
     get_amine_ref_n,
     retrieve_amine_rdf_descriptors,
@@ -16,7 +19,7 @@ from .RDF import (
     get_less_substituted_ortho,
     get_less_substituted_meta,
 )
-from .preprocess import (
+from preprocess import (
     calcDrop,
     corrX_new,
     trim_out_of_sample,
@@ -32,4 +35,4 @@ from .preprocess import (
     preprocess_maxdiff,
 )
 
-from .geom import PropheticInput
+from geom import PropheticInput

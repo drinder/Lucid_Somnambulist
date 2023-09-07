@@ -1,3 +1,7 @@
+import sys
+sys.path.append("./molli_firstgen")
+sys.path.append("./Lucid_Somnambulist")
+
 import molli as ml
 from os import makedirs
 from datetime import date

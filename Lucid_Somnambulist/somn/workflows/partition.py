@@ -1,5 +1,9 @@
 import os
 
+import sys 
+sys.path.append("./molli_firstgen")
+sys.path.append("./Lucid_Somnambulist")
+
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 import molli as ml
 from somn.workflows.calculate import main as calc_sub

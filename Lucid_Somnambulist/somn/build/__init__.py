@@ -6,8 +6,10 @@
 
 # from parsing import InputParser
 
+import sys
+sys.path.append("./Lucid_Somnambulist/somn/build")
 
-from .parsing import InputParser, cleanup_handles
+from parsing import InputParser, cleanup_handles
 
 # DataHandler,
 

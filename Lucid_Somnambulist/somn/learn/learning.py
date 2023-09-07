@@ -8,6 +8,9 @@ from keras.optimizers import Adam, Adadelta
 from math import exp
 import json
 
+import sys
+sys.path.append("./Lucid_Somnambulist")
+
 # from somn.workflows import PART_, OUTPUT_ ## Depreciated
 import keras_tuner as kt
 from keras.callbacks import (

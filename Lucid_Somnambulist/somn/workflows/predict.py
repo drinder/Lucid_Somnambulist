@@ -1,3 +1,6 @@
+import sys
+sys.path.append("./Lucid_Somnambulist")
+
 from somn.learn.inference import hypermodel_inference
 from argparse import ArgumentParser
 from sys import argv

@@ -1,5 +1,10 @@
+import sys
+sys.path.append("./molli_firstgen")
+
 import pandas as pd
 import pickle
+# pkg_resources has been deprecated in favor of other tools and libraries like
+# importlib.resources or setuptools
 import pkg_resources
 import molli as ml
 import json

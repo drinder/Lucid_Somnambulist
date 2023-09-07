@@ -8,6 +8,9 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 import numpy as np
 from itertools import product
 
+import sys
+sys.path.append("./Lucid_Somnambulist")
+
 from somn.data import BASEDESC, SOLVDESC, CATDESC
 
 
