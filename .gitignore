@@ -1,3 +1,4 @@
+# ignore virtual environment folder
 conda_env
 
 #Various reference docs for development and temporary files for testing. 

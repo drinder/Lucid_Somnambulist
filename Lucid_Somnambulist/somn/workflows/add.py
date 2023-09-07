@@ -2,7 +2,6 @@
 # This may be useful for analyzing component space or performing unsupervised learning tasks.
 # This workflow also can be used by predict to generate features for new structures.
 import os
-print("test")
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 from sys import argv
