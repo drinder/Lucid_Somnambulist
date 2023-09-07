@@ -121,7 +121,7 @@ def corrX_new(df, cut=0.9, bool_out=True, get_const=False):
     # Get correlation matrix and upper triagle
     corr_mtx = df.corr().abs()
     avg_corr = corr_mtx.mean(axis=1)
-    up = corr_mtx.where(np.triu(np.ones(corr_mtx.shape), k=1).astype(np.bool))
+    up = corr_mtx.where(np.triu(np.ones(corr_mtx.shape), k=1).astype(bool))
 
     dropcols = list()
 
@@ -150,7 +150,7 @@ def corrX_new(df, cut=0.9, bool_out=True, get_const=False):
                     index=res.columns,
                 )
 
-                res = res.append(s, ignore_index=True)
+                res = res._append(s, ignore_index=True)
 
     dropcols_names = calcDrop(res)
     if bool_out == False:  # Don't want boolean, instead want column names

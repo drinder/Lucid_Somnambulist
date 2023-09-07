@@ -43,7 +43,7 @@ def add_workflow(project: Project, prediction_experiment: str, parser_args=None)
 
     """
 
-    assert (len(parser_args) > 1) or (len(argv) > 1)
+    assert (parser_args is not None and len(parser_args) > 1) or (len(argv) > 1)
     parser = argparse.ArgumentParser(
         usage="Specify format (smi or cdxml), then a smiles string/file with smiles or cdxml file, and finally indicate 'el' or 'nuc' for electrophile or nucleophile. Optionally, serialize output structures with '-ser' - must pass some input as an argument after, standard use is 'y'"
     )
