@@ -1,3 +1,5 @@
+conda_env
+
 #Various reference docs for development and temporary files for testing. 
 somn.egg-info/
 Lucid_Somnambulist/somn/database_remove/
