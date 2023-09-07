@@ -5,6 +5,11 @@ import os
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 from sys import argv
+
+import sys
+sys.path.append("./molli_firstgen")
+sys.path.append("./Lucid_Somnambulist")
+
 import molli as ml
 import argparse
 from pathlib import Path
