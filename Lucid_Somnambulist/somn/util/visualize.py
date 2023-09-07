@@ -9,6 +9,11 @@ from scipy.stats import linregress
 import seaborn as sns
 import pandas as pd
 from glob import glob
+
+import sys
+sys.path.append("./molli_firstgen")
+sys.path.append("./Lucid_Somnambulist")
+
 from somn.util.project import Project
 from matplotlib import cm
 from matplotlib.colors import ListedColormap
