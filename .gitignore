@@ -1,6 +1,8 @@
 # ignore virtual environment folder and molli codebase
 conda_env
 molli_firstgen
+somn_scratch
+buffer.mol2
 
 #Various reference docs for development and temporary files for testing. 
 somn.egg-info/

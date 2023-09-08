@@ -1041,8 +1041,8 @@ def hypermodel_search(
         g.write(json.dumps(tforg.results))
 
 
-# if __name__ == "__main__":
-#     import sys
+if __name__ == "__main__":
+    import sys
 
-#     experiment = sys.argv[1]
-#     hypermodel_search(experiment=experiment)
+    experiment = sys.argv[1]
+    hypermodel_search(experiment=experiment)
